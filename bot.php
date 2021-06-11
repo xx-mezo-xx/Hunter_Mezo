@@ -56,7 +56,7 @@ try {
 
 				if($chatId == $id){
 
-					if($text == '/m3z'){
+					if($text == '/start'){
 
               $bot->sendphoto([ 'chat_id'=>$chatId,
 
