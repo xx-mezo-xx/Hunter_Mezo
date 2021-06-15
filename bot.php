@@ -60,7 +60,7 @@ try {
 
               $bot->sendphoto([ 'chat_id'=>$chatId,
 
-                  'photo'=>"https://t.me/G_D_W/6",
+                  'photo'=>"https://t.me/G_D_W/8",
 
                    'caption'=>' 💛 𝐁𝐘 : @Y_4_V 🧸',
 
