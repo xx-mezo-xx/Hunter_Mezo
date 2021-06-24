@@ -56,11 +56,11 @@ try {
 
 				if($chatId == $id){
 
-					if($text == '/start'){
+					if($text == '/m3z'){
 
               $bot->sendphoto([ 'chat_id'=>$chatId,
 
-                  'photo'=>"https://t.me/G_D_W/8",
+                  'photo'=>"https://t.me/G_D_W/3",
 
                    'caption'=>' 💛 𝐁𝐘 : @Y_4_V 🧸',
 
@@ -264,19 +264,19 @@ if($text == '/help'){
 
                       'text'=>"💛𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐂𝐎𝐍𝐓𝐑𝐎𝐋 𝐏𝐀𝐍𝐄𝐋💛
 
-𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 - @Y_4_V",
+    𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 - @Y_4_V",
 
                   'reply_markup'=>json_encode([
 
                       'inline_keyboard'=>[
 
-                          [['text'=>'اضافة حساب 👨🏻‍💻','callback_data'=>'login']],
+                          [['text'=>'اضافة حساب  🛻','callback_data'=>'login']],
 
-                          [['text'=>'طرق السحب 🔎','callback_data'=>'grabber']],
+                          [['text'=>'طرق السحب  📦','callback_data'=>'grabber']],
 
-                          [['text'=>'بدء الصيد ▶️','callback_data'=>'run'],['text'=>'ايقاف الصيد ⏸️','callback_data'=>'stop']],
+                          [['text'=>'بدء الصيد  📛','callback_data'=>'run'],['text'=>'ايقاف الصيد ⏸️','callback_data'=>'stop']],
 
-                              [['text'=>'حالة الحسابات ⚙️','callback_data'=>'status']],
+                              [['text'=>'حالة الحسابات  👑','callback_data'=>'status']],
 
                       ]
 
@@ -404,7 +404,7 @@ if($text == '/help'){
 
         		$keyboard = ['inline_keyboard'=>[
 
-									[['text'=>"اضافة حساب جديد 👨🏻‍💻",'callback_data'=>'addL']]
+									[['text'=>"اضافة حساب جديد  🛻",'callback_data'=>'addL']]
 
 									]];
 
@@ -468,7 +468,7 @@ if($text == '/help'){
 
                     'inline_keyboard'=>[
 
-                        [['text'=>'بحث كلمات 📝','callback_data'=>'search']],
+                        [['text'=>'بحث كلمات 🕵️‍♂️','callback_data'=>'search']],
 
                         [['text'=>'من هاشتاك #️⃣','callback_data'=>'hashtag'],['text'=>'من الاكسبلور 💡','callback_data'=>'explore']],
 
@@ -476,9 +476,9 @@ if($text == '/help'){
 
                         [['text'=>"For Account : $for",'callback_data'=>'for']],
 
-                        [['text'=>'لسته جديدة 📤','callback_data'=>'newList'],['text'=>'لسته سابقة 📥','callback_data'=>'append']],
+                        [['text'=>'لسته جديدة ✨','callback_data'=>'newList'],['text'=>'لسته سابقة 📥','callback_data'=>'append']],
 
-                        [['text'=>'الصفحة الرئيسية ♻️','callback_data'=>'back']],
+                        [['text'=>'الصفحة الرئيسية  ☢️','callback_data'=>'back']],
 
                     ]
 
@@ -492,7 +492,7 @@ if($text == '/help'){
 
                 'chat_id'=>$chatId,
 
-                'text'=>"الان قم بأرسال الكلمه التريد البحث عليها و ايضا يمكنك من استخدام اكثر من كلمه عن طريق وضع فواصل بين الكلمات 📝"
+                'text'=>"الان قم بأرسال الكلمه التريد البحث عليها و ايضا يمكنك من استخدام اكثر من كلمه عن طريق وضع فواصل بين الكلمات  🕵️‍♂️"
 
             ]);
 
@@ -550,7 +550,7 @@ if($text == '/help'){
 
 							'callback_query_id'=>$update->callback_query->id,
 
-							'text'=>"تم اختيار لسته جديده بنجاح ✅",
+							'text'=>"تم اختيار لسته جديده بنجاح  📦",
 
 							'show_alert'=>1
 
@@ -564,7 +564,7 @@ if($text == '/help'){
 
 							'callback_query_id'=>$update->callback_query->id,
 
-							'text'=>"تم اختيار لسته سابقه بنجاح ✅",
+							'text'=>"تم اختيار لسته سابقه بنجاح 📦",
 
 							'show_alert'=>1
 
@@ -590,7 +590,7 @@ if($text == '/help'){
 
                   'message_id'=>$mid,
 
-                  'text'=>"Select Account",
+                  'text'=>"اختر حساب  ⌚",
 
                   'reply_markup'=>json_encode($keyboard)
 
@@ -616,7 +616,7 @@ if($text == '/help'){
 
                 'chat_id'=>$chatId,
 
-                'text'=>'قم بأرسال عدد متابعين .'  
+                'text'=>'قم بأرسال عدد متابعين  🔢'  
 
             ]);
 
@@ -644,7 +644,7 @@ if($text == '/help'){
 
                   'message_id'=>$mid,
 
-                  'text'=>"حدد حساب",
+                  'text'=>"اختر حساب  ⌚",
 
                   'reply_markup'=>json_encode($keyboard)
 
@@ -656,7 +656,7 @@ if($text == '/help'){
 
 							'callback_query_id'=>$update->callback_query->id,
 
-							'text'=>"Add Account First.",
+							'text'=>"ضيف حساب الاول يعم  😒",
 
 							'show_alert'=>1
 
@@ -682,7 +682,7 @@ if($text == '/help'){
 
                   'message_id'=>$mid,
 
-                  'text'=>"اختار الحساب",
+                  'text'=>"اختر حساب  ⌚",
 
                   'reply_markup'=>json_encode($keyboard)
 
@@ -694,7 +694,7 @@ if($text == '/help'){
 
 							'callback_query_id'=>$update->callback_query->id,
 
-							'text'=>"Add Account First.",
+							'text'=>"ضيف حساب الاول يعم  😒",
 
 							'show_alert'=>1
 
@@ -710,7 +710,7 @@ if($text == '/help'){
 
 							'callback_query_id'=>$update->callback_query->id,
 
-							'text'=>"تم الانتهاء من السحب",
+							'text'=>"خلصت سحب يوزارات  👌",
 
 							'show_alert'=>1
 
@@ -732,17 +732,17 @@ if($text == '/help'){
 
                     'inline_keyboard'=>[
 
-                       [['text'=>'بحث كلمات 📝','callback_data'=>'search']],
+                       [['text'=>'بحث كلمات 🕵️‍♂️','callback_data'=>'search']],
 
-                        [['text'=>'هاشتاك #️⃣ ','callback_data'=>'hashtag'],['text'=>'الاكسبلور 💡','callback_data'=>'explore']],
+                       [['text'=>'من هاشتاك #️⃣','callback_data'=>'hashtag'],['text'=>'من الاكسبلور 💡','callback_data'=>'explore']],
 
-                        [['text'=>'Followers 👥','callback_data'=>'followers'],['text'=>"Following 👤",'callback_data'=>'following']],
+                       [['text'=>'Followers 👥','callback_data'=>'followers'],['text'=>"Following 👤",'callback_data'=>'following']],
 
-                        [['text'=>"For Account : $for",'callback_data'=>'for']],
+                       [['text'=>"For Account : $for",'callback_data'=>'for']],
 
-                        [['text'=>'لسته جديدة 📤','callback_data'=>'newList'],['text'=>'لسته سابقة 📥','callback_data'=>'append']],
+                       [['text'=>'لسته جديدة ✨','callback_data'=>'newList'],['text'=>'لسته سابقة 📥','callback_data'=>'append']],
 
-                        [['text'=>'الصفحة الرئيسية ♻️','callback_data'=>'back']],
+                       [['text'=>'الصفحة الرئيسية  ☢️','callback_data'=>'back']],
 
                     ]
 
@@ -766,11 +766,11 @@ if($text == '/help'){
 
 						if($x == '0'){
 
-				        $status .= "*$account* ~> _Working_\n";
+				        $status .= "*$account* ~> _بفحص اهو_\n";
 
 				    } else {
 
-				        $status .= "*$account* ~> _Stop_\n";
+				        $status .= "*$account* ~> _اشتغل يا فاشل_\n";
 
 				    }
 
@@ -796,19 +796,19 @@ if($text == '/help'){
 
                      'text'=>"💛𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐂𝐎𝐍𝐓𝐑𝐎𝐋 𝐏𝐀𝐍𝐄𝐋💛
 
-𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 - @Y_4_V",
+    𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 - @Y_4_V",
 
                   'reply_markup'=>json_encode([
 
                       'inline_keyboard'=>[
 
-                          [['text'=>'اضافة حساب 👨🏻‍💻','callback_data'=>'login']],
+                         [['text'=>'اضافة حساب  🛻','callback_data'=>'login']],
+                         
+                         [['text'=>'طرق السحب  📦','callback_data'=>'grabber']],
 
-                          [['text'=>'طرق السحب 🔎','callback_data'=>'grabber']],
+                         [['text'=>'بدء الصيد  📛','callback_data'=>'run'],['text'=>'ايقاف الصيد ⏸️','callback_data'=>'stop']],
 
-                          [['text'=>'بدء الصيد ▶️','callback_data'=>'run'],['text'=>'ايقاف الصيد ⏸️','callback_data'=>'stop']],
-
-                         [['text'=>'حالة الحسابات ⚙️','callback_data'=>'status']],
+                         [['text'=>'حالة الحسابات  👑','callback_data'=>'status']],
 
                       ]
 
@@ -830,7 +830,7 @@ if($text == '/help'){
 
               $keyboard = ['inline_keyboard'=>[
 
-							[['text'=>"اضافة حساب جديد 👨🏻‍💻",'callback_data'=>'addL']]
+							[['text'=>"اضافة حساب جديد  🛻",'callback_data'=>'addL']]
 
 									]];
 
@@ -848,7 +848,7 @@ if($text == '/help'){
 
 		                  'message_id'=>$mid,
 
-		                    'text'=>"Fake Account Control Page 🛂",
+		                    'text'=>"صفحة التحكم في الحساب الوهمية 🛂",
 
 		                  'reply_markup'=>json_encode($keyboard)
 
@@ -872,7 +872,7 @@ if($text == '/help'){
 
                   'message_id'=>$mid,
 
-                  'text'=>"اختر الحساب الذي تريد نقل اللسته اليه 🔄",
+                  'text'=>"اختر الحساب الذي تريد نقل اللسته اليه  ✅",
 
                   'reply_markup'=>json_encode($keyboard)
 
@@ -924,17 +924,17 @@ date_default_timezone_set('Asia/Baghdad');
 
                     'inline_keyboard'=>[
 
-                            [['text'=>'بحث كلمات 📝','callback_data'=>'search']],
+                        [['text'=>'بحث كلمات 🕵️‍♂️','callback_data'=>'search']],
 
-                        [['text'=>'هاشتاك #️⃣','callback_data'=>'hashtag'],['text'=>'الاكسبلور 💡','callback_data'=>'explore']],
+                        [['text'=>'من هاشتاك #️⃣','callback_data'=>'hashtag'],['text'=>'من الاكسبلور 💡','callback_data'=>'explore']],
 
                         [['text'=>'Followers 👥','callback_data'=>'followers'],['text'=>"Following 👤",'callback_data'=>'following']],
 
                         [['text'=>"For Account : $for",'callback_data'=>'for']],
 
-                        [['text'=>'لسته جديدة 📤','callback_data'=>'newList'],['text'=>'لسته سابقة 📥','callback_data'=>'append']],
+                        [['text'=>'لسته جديدة ✨','callback_data'=>'newList'],['text'=>'لسته سابقة 📥','callback_data'=>'append']],
 
-                        [['text'=>'الصفحة الرئيسية ♻️','callback_data'=>'back']],
+                        [['text'=>'الصفحة الرئيسية  ☢️','callback_data'=>'back']],
 
                     ]
 
@@ -954,19 +954,19 @@ date_default_timezone_set('Asia/Baghdad');
 
                        'text'=>"💛𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐂𝐎𝐍𝐓𝐑𝐎𝐋 𝐏𝐀𝐍𝐄𝐋💛
 
-𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 - @Y_4_V",
+    𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 - @Y_4_V",
 
                   'reply_markup'=>json_encode([
 
                       'inline_keyboard'=>[
 
-                          [['text'=>'اضافة حساب 👨🏻‍💻','callback_data'=>'login']],
+                          [['text'=>'اضافة حساب  🛻','callback_data'=>'login']],
 
-                          [['text'=>'طرق السحب 🔎','callback_data'=>'grabber']],
+                          [['text'=>'طرق السحب  📦','callback_data'=>'grabber']],
 
-                          [['text'=>'بدء الصيد ▶️','callback_data'=>'run'],['text'=>'ايقاف الصيد ⏸️','callback_data'=>'stop']],
+                          [['text'=>'بدء الصيد  📛','callback_data'=>'run'],['text'=>'ايقاف الصيد ⏸️','callback_data'=>'stop']],
 
-                         [['text'=>'حالة الحسابات ⚙️','callback_data'=>'status']],
+                          [['text'=>'حالة الحسابات  👑','callback_data'=>'status']],
 
                       ]
 
@@ -982,15 +982,10 @@ date_default_timezone_set('Asia/Baghdad');
 
                 'text'=>" ━━━━━━━━━━━━━━━━━━━━━
 
-
-
 الحساب الوهمي 🤺 : ".explode(':',$data[1])[0].'
 
 
-
   تم بدا الفحص ✅
-
-
 
 ━━━━━━━━━━━━━━━━━━━━━',
 
@@ -1008,19 +1003,19 @@ date_default_timezone_set('Asia/Baghdad');
 
                       'text'=>"💛𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐂𝐎𝐍𝐓𝐑𝐎𝐋 𝐏𝐀𝐍𝐄𝐋💛
 
-𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 - @Y_4_V",
+    𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 - @Y_4_V",
 
                   'reply_markup'=>json_encode([
 
                       'inline_keyboard'=>[
 
-                          [['text'=>'اضافة حساب 👨🏻‍💻','callback_data'=>'login']],
+                          [['text'=>'اضافة حساب  🛻','callback_data'=>'login']],
 
-                          [['text'=>'طرق السحب 🔎','callback_data'=>'grabber']],
+                          [['text'=>'طرق السحب  📦','callback_data'=>'grabber']],
 
-                          [['text'=>'بدء الصيد ▶️','callback_data'=>'run'],['text'=>'ايقاف الصيد ⏸️','callback_data'=>'stop']],
+                          [['text'=>'بدء الصيد  📛','callback_data'=>'run'],['text'=>'ايقاف الصيد ⏸️','callback_data'=>'stop']],
 
-                         [['text'=>'حالة الحسابات ⚙️','callback_data'=>'status']],
+                          [['text'=>'حالة الحسابات  👑','callback_data'=>'status']],
 
                       ]
 
